@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    background: darkmagenta;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+#header {
+    padding: 25px 0;
+    background: rgba(255, 255, 255, 0.33);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+
+.close-btn {
+    display: none;
+}
+
+.menu {
+    width: 40%;
+    height: 60vh;
+    background: royalblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.menu a {
+    color: white;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.menu button {
+    padding: 15px 25px;
+    background: indianred;
+    color: white;
+    font-size: 23px;
+    border-radius: 15px;
+}
+
+.menu {
+display: none;
+    animation: menu .4s alternate linear;
+}
+
+@keyframes menu {
+    0% {
+        width: 0;
+    }
+
+}
+/*hero*/
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0;
+}
+
+.modal-win-one {
+    background: orangered;
+    padding: 15px 25px;
+    color: white;
+    font-size: 27px;
+    border-radius: 8px;
+}
+
+.hero-win-one {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-win-one {
+    display: none;
+}
+
+.modal-wne {
+    width: 50%;
+    background: white;
+    height: 65vh;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: modal .6s alternate linear;
+}
+@keyframes modal {
+    0%{
+        transform: scale(0) rotate(360deg);
+    }
+
+}
+
+.modal-text p {
+    width: 85%;
+}
+
+.close-modal-one {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*modal-one*/
+
+.modal-one {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0;
+}
+
+.modal-win-two {
+    background: black;
+    padding: 15px 25px;
+    color: white;
+    font-size: 27px;
+    border-radius: 8px;
+}
+
+.hero-win-two {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-win-two {
+    display: none;
+}
+
+.modal-two {
+    width: 50%;
+    background: white;
+    height: 65vh;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: modal .6s alternate linear;
+
+}
+@keyframes modal {
+    0%{
+        transform: scale(0) ;
+    }
+
+}
+
+.modal-text p {
+    width: 85%;
+}
+
+.close-modal-two {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.modal-img {
+    width: 163px;
+    height: 161px;
+    transition: .4s;
+}
+
+.modal-img-two{
+    width: 197px;
+    height: 201px;
+    transition: .4s;
+}
+.modal-img-three{
+    width: 242px;
+    height: 236px;
+    transition: .4s;
+}
+
+.modal-btn button {
+    width: 33.3%;
+    height: 55px;
+    border-radius: 8px;
+    color: white;
+    font-size: 26px;
+    transition: .4s;
+}
+
+.modal-btn {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    background: rgba(217, 217, 217, 0.68);
+    border-radius: 8px;
+}
+
+.modal-btn-one {
+    background: #04CE25;
+}
+
+.modal-btn-two,
+.modal-btn-three {
+    background: rgba(217, 217, 217, 0.68);
+}
+
+/*home*/
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0;
+}
+
+.modal-win-three {
+    background: royalblue;
+    padding: 15px 25px;
+    color: white;
+    font-size: 27px;
+    border-radius: 8px;
+}
+
+.hero-win-three {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-win-three {
+    display: none;
+}
+
+.modal-home {
+    width: 50%;
+    background: white;
+    height: 65vh;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: modal .6s alternate linear;
+}
+@keyframes modal {
+    0%{
+        transform: scale(0) rotate(360deg);
+    }
+
+}
+
+.modal-text p {
+    width: 85%;
+}
+
+.close-modal-three {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+
