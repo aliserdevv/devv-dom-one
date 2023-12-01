@@ -46,101 +46,101 @@ oneBtn.addEventListener('click', () => {
 
 
 
-const modalBtn = document.querySelector('.modal-win-two'),
-    heroWin = document.querySelector('.hero-win-two'),
-    closeModal = document.querySelector('.close-modal-two');
+const modalBtnWe = document.querySelector('.modal-win-two'),
+    heroWinWe = document.querySelector('.hero-win-two'),
+    closeModalWe = document.querySelector('.close-modal-two');
 
-modalBtn.addEventListener('click' , () => {
-    heroWin.style.display = 'block'
-    heroWin.style.display = 'flex'
+modalBtnWe.addEventListener('click' , () => {
+    heroWinWe.style.display = 'block'
+    heroWinWe.style.display = 'flex'
 })
 
-closeModal.addEventListener('click' , () => {
-    heroWin.style.display = 'none'
-})
-
-
-
-
-const btnOne = document.querySelector('.modal-btn-one'),
-    btnTwo = document.querySelector('.modal-btn-two'),
-    btnThree = document.querySelector('.modal-btn-three'),
-img = document.querySelector('.modal-img');
-
-btnOne.addEventListener('click' , () => {
-    img.classList.add('modal-img')
-    img.classList.remove('modal-img-two')
-    img.classList.remove('modal-img-three')
-    btnOne.style.background = '#04CE25'
-    btnTwo.style.background = '#D9D9D9'
-     btnThree.style.background = '#D9D9D9'
-})
-
-btnTwo.addEventListener('click' , () => {
-    img.classList.add('modal-img-two')
-    img.classList.remove('modal-img')
-    img.classList.remove('modal-img-three')
-    btnOne.style.background = '#D9D9D9'
-    btnTwo.style.background = '#04CE25'
-    btnThree.style.background = '#D9D9D9'
-})
-
-btnThree.addEventListener('click' , () => {
-    img.classList.add('modal-img-three')
-    img.classList.remove('modal-img')
-    img.classList.remove('modal-img-two')
-    btnOne.style.background = '#D9D9D9'
-    btnThree.style.background = '#04CE25'
-    btnTwo.style.background = '#D9D9D9'
-})
-
-
-const modalBtn = document.querySelector('.modal-win-one'),
-    heroWin = document.querySelector('.hero-win-one'),
-    closeModal = document.querySelector('.close-modal-one');
-
-modalBtn.addEventListener('click' , () => {
-    heroWin.style.display = 'block'
-    heroWin.style.display = 'flex'
-})
-
-closeModal.addEventListener('click' , () => {
-    heroWin.style.display = 'none'
+closeModalWe.addEventListener('click' , () => {
+    heroWinWe.style.display = 'none'
 })
 
 
 
 
-const btnOne = document.querySelector('.modal-btn-one'),
-    btnTwo = document.querySelector('.modal-btn-two'),
-    btnThree = document.querySelector('.modal-btn-three'),
-    img = document.querySelector('.modal-img');
+const btnOneR = document.querySelector('.modal-btn-one'),
+    btnTwoR = document.querySelector('.modal-btn-two'),
+    btnThreeR = document.querySelector('.modal-btn-three'),
+imgR = document.querySelector('.modal-img');
 
-btnOne.addEventListener('click' , () => {
-    img.classList.add('modal-img')
-    img.classList.remove('modal-img-two')
-    img.classList.remove('modal-img-three')
-    btnOne.style.background = '#04CE25'
-    btnTwo.style.background = '#D9D9D9'
-    btnThree.style.background = '#D9D9D9'
+btnOneR.addEventListener('click' , () => {
+    imgR.classList.add('modal-img')
+    imgR.classList.remove('modal-img-two')
+    imgR.classList.remove('modal-img-three')
+    btnOneR.style.background = '#04CE25'
+    btnTwoR.style.background = '#D9D9D9'
+     btnThreeR.style.background = '#D9D9D9'
 })
 
-btnTwo.addEventListener('click' , () => {
-    img.classList.add('modal-img-two')
-    img.classList.remove('modal-img')
-    img.classList.remove('modal-img-three')
-    btnOne.style.background = '#D9D9D9'
-    btnTwo.style.background = '#04CE25'
-    btnThree.style.background = '#D9D9D9'
+btnTwoR.addEventListener('click' , () => {
+    imgR.classList.add('modal-img-two')
+    imgR.classList.remove('modal-img')
+    imgR.classList.remove('modal-img-three')
+    btnOneR.style.background = '#D9D9D9'
+    btnTwoR.style.background = '#04CE25'
+    btnThreeR.style.background = '#D9D9D9'
 })
 
-btnThree.addEventListener('click' , () => {
-    img.classList.add('modal-img-three')
-    img.classList.remove('modal-img')
-    img.classList.remove('modal-img-two')
-    btnOne.style.background = '#D9D9D9'
-    btnThree.style.background = '#04CE25'
-    btnTwo.style.background = '#D9D9D9'
+btnThreeR.addEventListener('click' , () => {
+    imgR.classList.add('modal-img-three')
+    imgR.classList.remove('modal-img')
+    imgR.classList.remove('modal-img-two')
+    btnOneR.style.background = '#D9D9D9'
+    btnThreeR.style.background = '#04CE25'
+    btnTwoR.style.background = '#D9D9D9'
+})
+
+
+const modalBtnZe = document.querySelector('.modal-win-one'),
+    heroWinZe = document.querySelector('.hero-win-one'),
+    closeModalZe = document.querySelector('.close-modal-one');
+
+modalBtnZe.addEventListener('click' , () => {
+    heroWinZe.style.display = 'block'
+    heroWinZe.style.display = 'flex'
+})
+
+closeModalZe.addEventListener('click' , () => {
+    heroWinZe.style.display = 'none'
+})
+
+
+
+
+const btnOneAs = document.querySelector('.modal-btn-one'),
+    btnTwoAs = document.querySelector('.modal-btn-two'),
+    btnThreeAs = document.querySelector('.modal-btn-three'),
+    imgAs = document.querySelector('.modal-img');
+
+btnOneAs.addEventListener('click' , () => {
+    imgAs.classList.add('modal-img')
+    imgAs.classList.remove('modal-img-two')
+    imgAs.classList.remove('modal-img-three')
+    btnOneAs.style.background = '#04CE25'
+    btnTwoAs.style.background = '#D9D9D9'
+    btnThreeAs.style.background = '#D9D9D9'
+})
+
+btnTwoAs.addEventListener('click' , () => {
+    imgAs.classList.add('modal-img-two')
+    imgAs.classList.remove('modal-img')
+    imgAs.classList.remove('modal-img-three')
+    btnOneAs.style.background = '#D9D9D9'
+    btnTwoAs.style.background = '#04CE25'
+    btnThreeAs.style.background = '#D9D9D9'
+})
+
+btnThreeAs.addEventListener('click' , () => {
+    imgAs.classList.add('modal-img-three')
+    imgAs.classList.remove('modal-img')
+    imgAs.classList.remove('modal-img-two')
+    btnOneAs.style.background = '#D9D9D9'
+    btnThreeAs.style.background = '#04CE25'
+    btnTwoAs.style.background = '#D9D9D9'
 })
 
 
